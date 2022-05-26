@@ -4,7 +4,6 @@ from pathlib import Path
 home_dir = str(Path.home())
 
 filePath = home_dir + "/todo.txt"
-print(filePath)
 
 todo_list = []
 try:
